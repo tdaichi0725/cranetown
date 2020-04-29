@@ -1,0 +1,90 @@
+html {
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+}
+
+.header {
+  height: 81px;
+  background-color: #ffffff;
+
+  padding-left: 20px;
+
+  font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #000000;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.menu {
+    height: 40px;
+
+    background-color: #ffffff;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 30px;
+    line-height: 40px;
+}
+
+
+.contents {
+    height: 200px;
+    background-color: #ffffff;
+}
+
+.product {
+  text-align: center;
+  text-decoration: none;
+}
+
+.shopmenu ul {
+  display: flex;
+  justify-content: center;
+}
+
+.shopmenu a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.shopmenu li {
+    list-style: none;
+    margin: 0 30px;
+    line-height: 40px;
+}
+
+.shop {
+   height:calc(160vh - 301px);
+   background-color: #ffffff;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.f-item {
+  width: 30%;
+    margin-left: 3%;
+}
+
+.footer {
+    height: 50px;
+    background-color:#000000;
+}
